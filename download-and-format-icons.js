@@ -10,8 +10,8 @@ const webfontsGenerator = require('webfonts-generator');
 const BASE_URL = 'https://game-icons.net/archives/svg/zip/000000/transparent/game-icons.net.svg.zip';
 
 // Variables to define the font class and icon prefix
-const fontClass = 'gi',
-      iconClass = 'gi';
+const fontClass = 'game-icon',
+      iconClass = 'game-icon';
 const classConst = 'const fontClass = "' + fontClass + '";\r\nconst iconClass = "' + fontClass + '";\r\n';
 
 const FILE_COUNTS = {};
