@@ -8,6 +8,15 @@ Since Game Icons GitHub repo is a bit outdated, this pulls from the live site, u
 * install the .css file
 * add an icon: `<i class="game-icon game-icon-anchor"></i>`
 
+# Want to change the font or icon class?
+
+* fork the repository
+* go to `download-and-format-icons.js`
+* update const `fontClass` and / or `iconClass` with the name/s you prefer:
+  * `fontClass` corresponds to the class for the font itself (example: `.game-icon`)
+  * `iconClass` corresponds to the prefix used for each icon (example: `.game-icon-anchor`)
+ * if you use the directory, go to `test/index.html` and update the code example in the instructions
+    
 # Want to build it yourself?
 
 * npm install
