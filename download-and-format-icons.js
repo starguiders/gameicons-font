@@ -8,7 +8,8 @@ const { svg2png } = require('svg-png-converter');
 const webfontsGenerator = require('webfonts-generator');
 
 // const BASE_URL = 'https://game-icons.net/archives/svg/zip/000000/transparent/game-icons.net.svg.zip';
-const BASE_URL = 'https://github.com/starguiders/gameicons-font/raw/refs/heads/master/files/game-icons.net.svg.zip';
+// alt const BASE_URL = 'https://github.com/starguiders/gameicons-font/raw/refs/heads/master/files/game-icons.net.svg.zip';
+const BASE_URL = 'https://game-icons.net/archives/svg/zip/000000/transparent/game-icons.net.svg.zip';
 
 // Variables to define the font class and icon prefix
 const fontClass = 'game-icon',
